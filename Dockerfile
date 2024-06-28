@@ -1,4 +1,4 @@
 FROM tomcat:10-jdk17
 COPY ./target/MyWebApp.war /usr/local/tomcat/webapps
-EXPOSE 3000
+EXPOSE 8080
 CMD ["catalina.sh", "run"]
